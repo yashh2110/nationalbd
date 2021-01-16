@@ -1,0 +1,120 @@
+*{
+  text-decoration: none;
+  list-style: none;
+  padding:0;
+  margin: 0;
+}
+.logo{
+  font-size: 1.8rem;
+  font-family: 'Audiowide', cursive;
+  margin:5px;
+}
+.srcmrd{
+  position:relative;
+  width:400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav{
+  border-bottom: 1px solid grey;
+  z-index: 1;
+  background: white
+}
+a:hover{
+  text-decoration: none;
+  color:white;
+}
+a{
+  color:white;
+}
+
+.container-sm{
+  padding:40px;
+  margin-top: 10px;
+  overflow:auto;
+}
+.persondata{
+  margin-left:60px;
+  margin-bottom: 30px;
+  color: grey
+}
+.ans{
+  color:#343a40;
+  display: inline;
+}
+.historyitem{
+  margin-bottom: 30px;
+}
+.history{
+  background:#ccf2ff;
+}
+.visionpart{
+  background: #b3ffe0;
+}
+.refrac{
+background: #ffb3b3
+}
+.acceptclass{
+  background: #b3ffb3;
+}
+.prescriptionclass{
+  background: #ffccf2
+}
+.error{
+font-size: 3em;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+}
+.errorcon{
+  margin-top:100px;
+}
+.pagenum{
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link{
+    position:relative;
+    left:35%;
+    padding:5px;
+    margin:5px;
+    border-radius: 5px;
+    background-color: blue;
+}
+.link:focus{
+  background-color:blue;
+}
+.logout{
+position: absolute;
+right:5px;
+top:100%;
+}
+.usernamecard{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background: white;
+  width:200px;
+  top:0;
+  border-radius:0 0 10px 10px;
+  border:1px solid grey;
+  
+}
+.divs{
+  font-family: font-family: 'Audiowide', cursive;
+  padding:10px
+}
+::-webkit-scrollbar{
+  width:3px;
+}
+::-webkit-scrollbar-track{
+  width:5px;
+}
+::-webkit-scrollbar-thumb{
+  height:5px;
+  width:5px;
+  background-color: orange;
+}
